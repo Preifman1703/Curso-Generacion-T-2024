@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contactos</title>
+    <script src="formularioMedico.js" defer></script>
+</head>
+
+<body>
+    <h1>Formulario Medico</h1>
+    <form class="form" name="formulario" method="get">
+        <input  name="nombre" id="nombre" placeholder="nombre">
+        <input  name="email" id="email" placeholder="correo">
+        <input  name="telefono" id="telefono" placeholder="telefono">
+        <textarea name="mensaje" id="mensaje" placeholder="Escribe Aqui tu Mensaje"></textarea>
+        <input type="button" value="Enviar Formulario" id="boton" onclick="validoCampos()">
+        <table>
+
+            <tr>
+                <td class="color"><strong>"Dias"</strong></td>
+                <td><strong>"Servicios"</strong></td>
+            </tr>
+            <tr>
+                <td><input class="dia1" value="Lunes"></td>
+                <td>Psicologia</td>
+            </tr>
+            <tr>
+                <td><input class="dia2" value="Martes"></td>
+                <td>kinesiologia</td>
+            </tr>
+            <tr>
+                <td><input class="dia3" value="Miercoles"></td>
+                <td>Traumatologia</td>
+            </tr>
+            <tr>
+                <td><input class="dia4" value="Jueves"></td>
+                <td>Dentista</td>
+            </tr>
+            <tr>
+                <td><input class="dia5" value="Viernes"></td>
+                <td>Reumatologia</td>
+            </tr>
+            <tr>
+                <td><input class="dia6" value="Sabado"></td>
+                <td>Dermatologia</td>
+            </tr>
+
+        </table>
+        <tfoot><input type="date" name="date" id="date"></tfoot>
+    </form>
+
+
+</body>
+
+</html>

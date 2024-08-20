@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(224, 129, 112);
+}
+
+.form{
+    width: 450px;
+    margin: auto;
+    background: rgba(15, 41, 146, 0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+h1{
+    color: greenyellow;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+#boton{
+    background:tomato;
+    color:black;
+    padding: 20px;
+}
+
+#boton:active{
+    background-color: yellow;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+@media (max-width:800px){
+    form{
+        width: 100%;
+    }
+}
+
+/* DISEÑO DE TABLA */
+table,tr,td{
+    border: 3px solid black;
+}
+
+td, .color{
+    background-color: hsl(300, 80%, 73%);
+}
+
+.dia1, .dia2, .dia3, .dia4, .dia5, .dia6{
+    margin-bottom: auto;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+input:focus{
+    border: 4px solid red;
+}
+
