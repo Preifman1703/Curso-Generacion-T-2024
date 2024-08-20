@@ -1,0 +1,132 @@
+body{
+    background-color:gold;
+    margin: 18px;
+    padding: 18px;
+    font-size: 21px;
+    user-select: none;
+}
+
+form, div, input{  
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    text-align:center;
+}
+
+#contenedor{
+    margin: 3%;
+    padding: 35px;
+    display: block;
+    box-sizing: border-box;
+    background: rgb(162, 133, 150);
+}
+
+fieldset{
+    border: 3px solid black;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color:orange;
+}
+
+legend{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color:royalblue;
+    color: white;
+}
+
+span{
+    text-decoration: underline black ;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+label{
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:larger;
+    color:black;
+}
+
+input{
+    font-size: 1.6pc;
+    width: 23%;
+    padding: 10px;
+    border-radius: 1rem;
+    box-shadow: 0 5px 10px blue ;
+}
+
+
+.m, .f, .tyc{
+    width: 25px;
+    border-radius: 6px;
+}
+
+.sexo, span{
+    text-align: center;
+    display:ruby-text;
+}
+
+select,option{
+    font-size: large;
+    width: 10rem;
+    padding: 10px;
+}
+
+input:focus{
+    border: 8px solid red;
+  
+}
+
+textarea{
+    font-size: 1.3pc;
+    resize: none;
+}
+
+
+#Femenino, #Masculino, #terminos_y_condiciones{
+    height: 21px;
+}
+
+#boton{
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    margin: 20px;
+    text-decoration: underline black;
+}
+
+.button:active{
+    padding: 1rem;
+    margin: 20px;
+    font-size:x-large;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    transition-duration: 2s 1s;
+}
+
+footer{
+    font-family: verdana;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    border: 5px solid black;
+    padding: inherit;
+    background-color: greenyellow;
+}
+
+address{
+    margin: inherit;
+}
+
+@media (max-width:450px){
+    form{
+        width: 100%;
+    }
+}
+
+
+

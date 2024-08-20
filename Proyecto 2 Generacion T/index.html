@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="JavaScript.js"></script>
+    <title>Formulario</title>
+</head>
+
+<body>
+    <form action="https://formspree.io/f/xqazlezp" method="post">
+        <fieldset>
+            <legend>
+                <h1 >Formulario AFI</h1>
+            </legend>
+        <div id="contenedor">
+            <div>
+                <label  for="nombre">Nombre:</label>
+                <input type="text" name="nombre" placeholder="nombre completo" required><br><br>
+            </div>
+
+            <div>
+                <label for="DNI">DNI:</label>
+                <input type="text" name="DNI" required><br><br>
+            </div>
+
+            <div>
+                <label for="fecha">Fecha de Nacimiento:</label>
+                <input type="date" name="fecha" id="nacimiento" required><br><br>
+            </div>
+
+            <div>
+                <label for="correo">Correo:</label>
+                <input type="text" name="correo" placeholder="correo electronico" required><br><br>
+            </div>
+
+            <div>
+                <label for="telefono">Telefono/Celular:</label>
+                <input type="text" name="telefono" required><br><br>
+            </div>
+
+            <div>
+                <label for="direccion">Dirección:</label>
+                <input type="text" name="direccion" required><br><br>
+            </div>
+
+            <div class="sexo">
+                <span><strong>Sexo:</strong></span><br>
+                <label>Masculino:<input class="m" type="radio" name="radio" id="Masculino" required></label>
+                <label>Femenino:<input class="f" type="radio" name="radio" id="Femenino" required></label><br><br>
+            </div>
+
+
+            <div>
+                <label for="naciolalidad">*  ¿De que Nacionalidad sos?</label>
+                <select name="paises" id="select-pais" required>
+                    <option value="">Seleccionar</option>
+                    <option value="arg">Argentina</option>
+                    <option value="chi">Chile</option>
+                    <option value="uru">Uruguay</option>
+                    <option value="par">Paraguay</option>
+                    <option value="bra">Brasil</option>
+                    <option value="bol">Bolivia</option>
+                    <option value="ot">Otro</option>
+                </select><br><br>
+            </div>
+
+            <div>
+                <label for="obser">Observaciones:</label>
+                <textarea name="mensaje" rows="5" cols="50" placeholder="Escribe Aqui tu Mensaje"
+                    required></textarea><br><br>
+            </div>
+
+            <div>
+                <span>Acepte Terminos Y Condiciones</span>
+                <input class="tyc" type="checkbox" name="checkbox" id="terminos_y_condiciones" required><br><br>
+            </div>
+
+            <div>
+                <input class="button" type="submit" value="Enviar Formulario" id="boton">
+            </div>
+        </div>
+    </form>
+    </fieldset>
+
+    <footer>
+        <small>derechos reservados &copy; 2024-2050</small>
+        <address>
+            Correo:
+            <a href="mailto:martinpalermo1987@gmail.com">MartinPalermo</a>
+            Telefono:
+            011 1165652017
+        </address>
+    </footer>
+</body>
+
+</html>
